@@ -12,30 +12,31 @@
 </head>
 
 <body ng-app="">
+    <div class="mainContainer">
+        <div ng-include src="'HeaderMaster.html'"></div>
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-7">
+                    <img style="width: 100%; padding-top: 1.0rem;" id="home_image" src="Images/home_img.png" />
+                </div>
+                <div class="col-sm-5">
+                    <h5 class="display-4">Hello</h5>
+                    <p id="aboutParagraph" class="lead">
+                        形キコクメ康康うせじほ線玲ス用載カネ庭更ル平1収サケヒコ申料開人ユ民生るか文都ヌエ処兄呂を。
+                        人ゆド提呈んラぴと縦約れよク中争ンひみじ闘大件ん攻好シホエオ部内因ド変聞進リホ薄除シ東能性筆断社びろへ。
+                        全キソラ表参ぶじドほ聞平なゆ位掲れはゆル広大リむッレ候秋えびず落響こわあづ面千コメヘア遂見ゆいぼぽ治2予
+                        73熊フ必展ずげはフ択再ヨレイソ掲9高に誓28投務減花ぽさむひ。
+                    </p>
+                </div>
+            </div>
 
-    <div ng-include src="'HeaderMaster.html'"></div>
-    <div class="content">
-        <div class="row">
-            <div class="col-sm-7">
-                <img style="width: 100%; padding-top: 1.0rem;" id="home_image" src="Images/home_img.png" />
-            </div>
-            <div class="col-sm-5">
-                <h5 class="display-4">Hello</h5>
-                <p id="aboutParagraph" class="lead">
-                    形キコクメ康康うせじほ線玲ス用載カネ庭更ル平1収サケヒコ申料開人ユ民生るか文都ヌエ処兄呂を。
-                    人ゆド提呈んラぴと縦約れよク中争ンひみじ闘大件ん攻好シホエオ部内因ド変聞進リホ薄除シ東能性筆断社びろへ。
-                    全キソラ表参ぶじドほ聞平なゆ位掲れはゆル広大リむッレ候秋えびず落響こわあづ面千コメヘア遂見ゆいぼぽ治2予
-                    73熊フ必展ずげはフ択再ヨレイソ掲9高に誓28投務減花ぽさむひ。
-                </p>
-            </div>
         </div>
-
+        <!-- Must stop the floating so that elements below don't float up into here. -->
+        <div class="stopFloat"></div>
+        <!--
+        <div ng-include src="'footer.html'"></div>
+        -->
     </div>
-    <!-- Must stop the floating so that elements below don't float up into here. -->
-    <div class="stopFloat"></div>
-    <!--
-    <div ng-include src="'footer.html'"></div>
-    -->
 </body>
 
 </html>

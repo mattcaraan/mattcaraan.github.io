@@ -1,6 +1,13 @@
-﻿html, body {
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffd0d0;
+    background-image: -webkit-linear-gradient(60deg, #ffc6a6 50%, #d2d3ff 50%);
+    min-height: 500px;
+}
 
-    background-color: #f4ecb8;
+.mainContainer {
+    background-color: transparent;
     padding: 0;
     margin: 0;
     height: 100%;
@@ -36,7 +43,6 @@
     height: 24px;
     width: 100%;
     font-size: 12px
-
 }
 
 #home_image {
@@ -44,7 +50,7 @@
 }
 
 .stopFloat {
-    clear:both;
+    clear: both;
     left: 0px;
     right: 0px;
     bottom: 0px;

@@ -10,6 +10,7 @@
 
 #myNav {
     font-size: 17px;
+    right: 0px;
     text-transform: uppercase;
     background-color: transparent;
     margin-top: 5%;
@@ -23,6 +24,9 @@
     font-size: 18px;
 }
 
+#aboutParagraph {
+    min-width: 20%;
+}
 
 #footer {
     position: fixed;
@@ -32,7 +36,7 @@
     height: 24px;
     width: 100%;
     font-size: 12px
-    background
+
 }
 
 #home_image {

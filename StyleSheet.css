@@ -4,6 +4,7 @@ html, body {
     background-color: #ffd0d0;
     background-image: -webkit-linear-gradient(60deg, #ffc6a6 50%, #d2d3ff 50%);
     min-height: 500px;
+    height: 125%;
 }
 
 .mainContainer {

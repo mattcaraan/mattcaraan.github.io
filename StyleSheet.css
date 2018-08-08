@@ -1,10 +1,9 @@
 ﻿html, body {
 
-    background-color: #bad6f6;
+    background-color: #f4ecb8;
     padding: 0;
     margin: 0;
-    height: 150%;
-    font-family: Arial, sans-serif;
+    height: 100%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -12,24 +11,38 @@
 #myNav {
     font-size: 17px;
     text-transform: uppercase;
-    color: black;
     background-color: transparent;
+    margin-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     transform: scaleY(1.05);
     transform: scaleX(0.95);
 }
 
+.lead {
+    font-size: 18px;
+}
+
+
 #footer {
     position: fixed;
-    padding-bottom: 2px;
+    padding-bottom: 2.0rem;
     left: 0;
     bottom: 0;
     height: 24px;
     width: 100%;
     font-size: 12px
+    background
 }
 
 #home_image {
     width: 80%;
+}
+
+.stopFloat {
+    clear:both;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 10px;
 }

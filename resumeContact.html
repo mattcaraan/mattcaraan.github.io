@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>こんにちは!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/bootstrap.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+
+
+<body ng-app="">
+    <div class="mainContainer">
+        <div ng-include src="'HeaderMaster.html'"></div>
+        <div class="content">
+            <center>
+                <h4 class="display-4">Contact</h4>
+                <p class="lead">Temple Email: tuf35360@temple.edu</p>
+                <p class="lead">Personal Email: matt2caraan@gmail.com</p>
+                <p class="lead">Personal Phone: 1-484-XXX-XXXX (only on request)</p>
+                <h5>Social</h5>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <!--Used to center-->
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-facebook-square" style="font-size:40px"></i>
+                        <i class="fa fa-instagram" style="font-size:40px"></i>
+                        <i class="fa fa-twitter-square" style="font-size:40px"></i>
+                        <i class="fa fa-linkedin-square" style="font-size:40px"></i>
+                    </div>
+                    <div class="col-sm-3">
+                        <!--Used to center-->
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+    <!-- Must stop the floating so that elements below don't float up into here. -->
+    <div class="stopFloat"></div>
+</body>
+
+</html>

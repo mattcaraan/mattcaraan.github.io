@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #ffd0d0;
-    background-image: -webkit-linear-gradient(60deg, #ffc6a6 50%, #d2d3ff 50%);
+    background-image: -webkit-linear-gradient(60deg, #e9d4c7 50%, #fff7d2 50%);
     min-height: 500px;
     height: 125%;
 }
